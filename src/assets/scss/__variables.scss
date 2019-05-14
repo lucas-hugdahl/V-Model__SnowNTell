@@ -1,0 +1,135 @@
+
+
+//Colors//
+$blue: #00a8e1;
+$green: #8BD500;
+$yellow: #f6b221;
+$orange: #f3901d;
+$red: #dd0031;
+$purple: #aa7bc9;
+$white: white;
+$black: #030010;
+
+$white: #fff;
+$gray-100: #f2f2f2;
+$gray-200: #e9ecef;
+$gray-300: #cfd4d8;
+$gray-400: #ccc;
+$gray-500: #adb5bd;
+$gray-600: #868e96;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #030010;
+
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$font-family-base: $font-family-regular;
+$container-max-width: 1920px;
+$navbar-height: 80px;
+$mobile-navbar-height: 64px;
+
+
+// Layout
+$navbar-height: 80px;
+$mobile-navbar-height: 64px;
+$fixed-navbar-width: 50px;
+$grid-gutter-width: 24px;
+$container-max-width: 1920px;
+$container-padding: 5%;
+
+// Typography
+$font-family-base: $font-family-regular;
+$font-size-base: 1.125rem; // 18px (Assumes the browser default, typically `16px`)
+$line-height-base: 1.44;
+
+$h1-font-size: $font-size-base * 3;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+
+$display1-size: 12rem;
+$display2-size: 5.5rem;
+$display3-size: 4.5rem;
+$display4-size: 3.5rem;
+
+$headings-line-height: 1.2;
+$blockquote-font-size: $font-size-base;
+
+$link-color: currentColor;
+$link-hover-color: none;
+
+$grays: ();
+$grays: map-merge((
+    "0": $white,
+    "100": $gray-100,
+    "200": $gray-200,
+    "300": $gray-300,
+    "400": $gray-400,
+    "500": $gray-500,
+    "600": $gray-600,
+    "700": $gray-700,
+    "800": $gray-800,
+    "900": $gray-900,
+    "1000": $black
+), $grays);
+
+// Spacing
+//
+// Control the default styling of most Bootstrap elements by modifying these
+// variables. Mostly focused on spacing.
+// You can add more entries to the $spacers map, should you need more variation.
+$spacer: 8px;
+$spacers: (
+    0: 0,
+    1: $spacer,
+    2: ($spacer * 2),
+    3: ($spacer * 3),
+    4: ($spacer * 4),
+    5: ($spacer * 5),
+    6: ($spacer * 6),
+    7: ($spacer * 7),
+    8: ($spacer * 8),
+    10: ($spacer * 10),
+    12: ($spacer * 12),
+);
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-bg: $white;
+$body-color: $black;
+
+$hr-border-color: $black;
+
+// Z-index master list (copied from Bootstrap)
+//
+// Warning: Avoid customizing these values. They're used for a bird's eye view
+// of components dependent on the z-axis and are designed to all work together.
+
+$zindex-dropdown: 1000 !default;
+$zindex-sticky: 1020 !default;
+$zindex-fixed: 1030 !default;
+$zindex-modal-backdrop: 1040 !default;
+$zindex-modal: 1050 !default;
+$zindex-popover: 1060 !default;
+$zindex-tooltip: 1070 !default;
+
+$z-index: (
+    1: 1,
+    dropdown: 1000,
+    sticky: 1020,
+    fixed: 1030,
+    modal-backdrop: 1040,
+    modal: 1050,
+    popover: 1060,
+    tooltip: 1070
+);

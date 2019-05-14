@@ -1,0 +1,9 @@
+//Breakpoint UP
+@mixin breakpoint($size) {
+    @media (min-width: map-get($breakpoints, $size)) { @content ; }
+}
+
+//Breakpoint DOWN
+@mixin breakpoint($size) {
+    @media (max-width: map-get($breakpoints, $size)) { @content ; }
+}
