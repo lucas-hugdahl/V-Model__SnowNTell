@@ -1,4 +1,4 @@
-# au-profiles
+# Extending on v-model
 
 ## Project setup
 ```
