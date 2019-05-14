@@ -13,7 +13,12 @@ Is the same as this
 	<input :value="firstName" @input="firstName = $event">
 ```
 
-In short, v-model just passed down a value, listens for an input event, and sets the passed down value equal to the value emitted in the input event. 
+In short, v-model just passed down a **value**, listens for an **input** event, and sets the passed down value equal to the value emitted in the input event. 
+
+
+
+
+
 
 
 
