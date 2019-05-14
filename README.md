@@ -3,7 +3,7 @@
 This repo provides a couple examples of how to expand on the v-model directive in Vue.js.
 
 
-## Important
+## Important to know
 This
 ```
 	<input v-model="firstName">
